@@ -1,0 +1,173 @@
+{
+  "pages": [
+    "pages/Loading/index",
+    "pages/authorization/index",
+    "pages/launch/index",
+    "pages/home/index",
+    "pages/shop/GoodsClass/index",
+    "pages/shop/ShoppingCart/index",
+    "pages/user/User/index"
+  ],
+  "subPackages": [
+    {
+      "root": "subpackages/shop/",
+      "pages": [
+        "GoodSearch/index",
+        "StoreList/index",
+        "GoodsList/index",
+        "GoodsCollection/index",
+        "GoodsFoot/index",
+        "EvaluateList/index",
+        "GoodsEvaluate/index",
+        "GoodsPromotion/index",
+        "HotNewGoods/index",
+        "GoodsCon/index"
+      ]
+    },
+    {
+      "root": "subpackages/user/",
+      "pages": [
+        "Login/index",
+        "Register/index",
+        "RetrievePassword/index",
+        "BindingPhone/index",
+        "UserAccount/index",
+        "address/AddAddress/index",
+        "address/AddressManagement/index",
+        "BuyInfo/index",
+        "promotion/Poster/index",
+        "signIn/Sign/index",
+        "signIn/SignRecord/index",
+        "promotion/CashAudit/index",
+        "promotion/PromoterOrder/index",
+        "promotion/PromoterList/index",
+        "promotion/UserPromotion/index",
+        "UserBill/index",
+        "promotion/CashRecord/index",
+        "promotion/CommissionDetails/index",
+        "signIn/Integral/index",
+        "UserVip/index",
+        "PersonalData/index",
+        "coupon/UserCoupon/index",
+        "coupon/GetCoupon/index",
+        "coupon/CouponDetail/index",
+        "promotion/UserCash/index",
+        "CustomerList/index",
+        "Recharge/index",
+        "Recommend/index"
+      ]
+    },
+    {
+      "root": "subpackages/order/",
+      "pages": [
+        "MyOrder/index",
+        "Logistics/index",
+        "OrderDetails/index",
+        "OrderSubmission/index",
+        "PaymentStatus/index",
+        "GoodsReturn/index",
+        "ReturnList/index"
+      ]
+    },
+    {
+      "root": "subpackages/orderAdmin/",
+      "pages": [
+        "OrderIndex/index",
+        "AdminOrderList/index",
+        "GoodsDeliver/index",
+        "AdminOrder/index",
+        "Statistics/index",
+        "OrderCancellation/index"
+      ]
+    },
+    {
+      "root": "subpackages/activity/",
+      "pages": [
+        "Poster/index",
+        "DargainDetails/index",
+        "GoodsBargain/index",
+        "BargainRecord/index",
+        "GoodsGroup/index",
+        "GroupDetails/index",
+        "GroupRule/index",
+        "GoodsSeckill/index",
+        "SeckillDetails/index"
+      ]
+    },
+    {
+      "root": "subpackages/news/",
+      "pages": [
+        "NewsDetail/index",
+        "NewsList/index",
+        "NoticeDetail/index"
+      ]
+    },
+    {
+      "root": "subpackages/kitchen/",
+      "pages": [
+        "index",
+        "detail"
+      ]
+    },
+    {
+      "root": "subpackages/map/",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "闽宁同心.特色商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#197A01",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "18rpx",
+    "iconWidth": "16px",
+    "spacing": "-3px",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/icon-home.png",
+        "selectedIconPath": "static/icon-home-hot.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/GoodsClass/index",
+        "iconPath": "static/icon-class.png",
+        "selectedIconPath": "static/icon-class-hot.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shop/ShoppingCart/index",
+        "iconPath": "static/icon-cart.png",
+        "selectedIconPath": "static/icon-cart-hot.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/User/index",
+        "iconPath": "static/icon-user.png",
+        "selectedIconPath": "static/icon-user-hot.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {},
+  "usingComponents": {
+    "show-img": "/components/Global/ShowImg",
+    "cu-custom": "/components/colorui/components/cu-custom"
+  }
+}

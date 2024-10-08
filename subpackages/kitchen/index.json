@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "美食厨房",
+  "usingComponents": {
+    "tab": "/subpackages/kitchen/components/tab",
+    "goods-item": "/subpackages/kitchen/components/goodsItem"
+  }
+}
