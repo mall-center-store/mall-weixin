@@ -171,7 +171,7 @@ var _default2 = {
   methods: {
     routerGo: function routerGo(cart) {
       this.$yrouter.push({
-        path: "/pages/shop/GoodsEvaluate/index",
+        path: "/subpackages/shop/GoodsEvaluate/index",
         query: {
           id: cart.unique
         }

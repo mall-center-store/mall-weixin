@@ -195,7 +195,7 @@ var _default = {
     },
     goAddressPages: function goAddressPages() {
       this.$yrouter.push({
-        path: "/pages/user/address/AddAddress/index"
+        path: "/subpackages/user/address/AddAddress/index"
       });
       this.$emit("redirect");
     },

@@ -1,4 +1,4 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/shop/GoodSearch/index"],{
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["subpackages/shop/GoodSearch/index"],{
 
 /***/ 136:
 /*!***********************************************************************************************!*\
@@ -13,7 +13,7 @@
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 __webpack_require__(/*! uni-pages */ 29);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/shop/GoodSearch/index.vue */ 137));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./subpackages/shop/GoodSearch/index.vue */ 137));
 // @ts-ignore
 wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_index.default);
@@ -23,7 +23,7 @@ createPage(_index.default);
 
 /***/ 137:
 /*!**************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -57,14 +57,14 @@ var component = Object(_E_software_HBuilderX_3_8_4_20230531_HBuilderX_plugins_un
   renderjs
 )
 
-component.options.__file = "pages/shop/GoodSearch/index.vue"
+component.options.__file = "subpackages/shop/GoodSearch/index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
 /***/ 138:
 /*!*********************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue?vue&type=template&id=41c5c1f8& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue?vue&type=template&id=41c5c1f8& ***!
   \*********************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -86,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 139:
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue?vue&type=template&id=41c5c1f8& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue?vue&type=template&id=41c5c1f8& ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -122,7 +122,7 @@ render._withStripped = true
 
 /***/ 140:
 /*!***************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue?vue&type=script&lang=js& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -138,7 +138,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 141:
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -211,7 +211,7 @@ var _default = {
     },
     toSearch: function toSearch(s) {
       this.$yrouter.push({
-        path: "/pages/shop/GoodsList/index",
+        path: "/subpackages/shop/GoodsList/index",
         query: {
           s: s
         }
@@ -231,7 +231,7 @@ exports.default = _default;
 
 /***/ 142:
 /*!***********************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue?vue&type=style&index=0&lang=css& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue?vue&type=style&index=0&lang=css& ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -247,7 +247,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 143:
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/shop/GoodSearch/index.vue?vue&type=style&index=0&lang=css& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/shop/GoodSearch/index.vue?vue&type=style&index=0&lang=css& ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -259,4 +259,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 },[[136,"common/runtime","common/vendor"]]]);
-//# sourceMappingURL=../../../../.sourcemap/mp-weixin/pages/shop/GoodSearch/index.js.map
+//# sourceMappingURL=../../../../.sourcemap/mp-weixin/subpackages/shop/GoodSearch/index.js.map

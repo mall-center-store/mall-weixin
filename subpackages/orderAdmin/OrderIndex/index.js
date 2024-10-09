@@ -1,4 +1,4 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/orderAdmin/OrderIndex/index"],{
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["subpackages/orderAdmin/OrderIndex/index"],{
 
 /***/ 467:
 /*!*****************************************************************************************************!*\
@@ -13,7 +13,7 @@
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 __webpack_require__(/*! uni-pages */ 29);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/orderAdmin/OrderIndex/index.vue */ 468));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./subpackages/orderAdmin/OrderIndex/index.vue */ 468));
 // @ts-ignore
 wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_index.default);
@@ -23,7 +23,7 @@ createPage(_index.default);
 
 /***/ 468:
 /*!********************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/orderAdmin/OrderIndex/index.vue ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/orderAdmin/OrderIndex/index.vue ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -55,14 +55,14 @@ var component = Object(_E_software_HBuilderX_3_8_4_20230531_HBuilderX_plugins_un
   renderjs
 )
 
-component.options.__file = "pages/orderAdmin/OrderIndex/index.vue"
+component.options.__file = "subpackages/orderAdmin/OrderIndex/index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
 /***/ 469:
 /*!***************************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/orderAdmin/OrderIndex/index.vue?vue&type=template&id=3403448c& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/orderAdmin/OrderIndex/index.vue?vue&type=template&id=3403448c& ***!
   \***************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 470:
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/orderAdmin/OrderIndex/index.vue?vue&type=template&id=3403448c& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/orderAdmin/OrderIndex/index.vue?vue&type=template&id=3403448c& ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -111,7 +111,7 @@ render._withStripped = true
 
 /***/ 471:
 /*!*********************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/orderAdmin/OrderIndex/index.vue?vue&type=script&lang=js& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/orderAdmin/OrderIndex/index.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -127,7 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 472:
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/orderAdmin/OrderIndex/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/orderAdmin/OrderIndex/index.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -256,13 +256,13 @@ var _default = {
   methods: {
     goStatistics: function goStatistics(query) {
       this.$yrouter.push({
-        path: "/pages/orderAdmin/Statistics/index",
+        path: "/subpackages/orderAdmin/Statistics/index",
         query: query
       });
     },
     goAdminOrderList: function goAdminOrderList(types) {
       this.$yrouter.push({
-        path: "/pages/orderAdmin/AdminOrderList/index",
+        path: "/subpackages/orderAdmin/AdminOrderList/index",
         query: {
           types: types
         }
@@ -306,4 +306,4 @@ exports.default = _default;
 /***/ })
 
 },[[467,"common/runtime","common/vendor"]]]);
-//# sourceMappingURL=../../../../.sourcemap/mp-weixin/pages/orderAdmin/OrderIndex/index.js.map
+//# sourceMappingURL=../../../../.sourcemap/mp-weixin/subpackages/orderAdmin/OrderIndex/index.js.map

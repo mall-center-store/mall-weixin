@@ -170,7 +170,7 @@ var _default = {
               // console.log(e)
             },
             complete: function complete(e) {//接口调用结束的回调函数（调用成功、失败都会执行）
-              // console.log(e)
+              console.log(e)
             }
           });
         }
@@ -12555,7 +12555,7 @@ var handleGetUserInfo = function handleGetUserInfo() {
     // 	// 获取到最后一个页面
     // 	if (
     // 		currentPage.route != 'pages/Loading/index' &&
-    // 		currentPage.route != 'pages/user/Login/index'
+    // 		currentPage.route != 'subpackages/user/Login/index'
     // 	) {
     // 		url = currentPage.route
     // 		query = {
@@ -12666,7 +12666,7 @@ var handleLoginStatus = function handleLoginStatus(location, complete, fail, suc
     path: '/pages/home/index',
     name: '首页'
   }, {
-    path: '/pages/user/Login/index',
+    path: '/subpackages/user/Login/index',
     name: '登录页面'
   }, {
     path: '/pages/authorization/index',
@@ -12815,7 +12815,7 @@ function routerPermissions(url, type) {
     // 如果不是小程序跳转到登录页
     _cookie.default.set('redirect', path);
     push({
-      path: '/pages/user/Login/index'
+      path: '/subpackages/user/Login/index'
     });
   }
 }
@@ -13020,7 +13020,7 @@ var handleLoginFailure = function handleLoginFailure() {
   } else {
     // token 失效
     // 判断当前是不是已经在登录页面或者授权页，防止二次跳转
-    if (_store.default.getters.isAuthorizationPage || currentPageUrl == '/pages/user/Login/index') {
+    if (_store.default.getters.isAuthorizationPage || currentPageUrl == '/subpackages/user/Login/index') {
       console.log(_store.default.getters.isAuthorizationPage, currentPageUrl, '已经是登录页面或者授权页面，跳出方法');
       return;
     }
@@ -13036,7 +13036,7 @@ var handleLoginFailure = function handleLoginFailure() {
     // 当前是通过海报扫描进入的
 
     // 判断是不是拼团进来的
-    if (currentPageUrl == 'pages/activity/GroupRule/index') {
+    if (currentPageUrl == 'subpackages/activity/GroupRule/index') {
       console.log('————————');
       console.log('是拼团进来的');
       console.log('————————');
@@ -13059,7 +13059,7 @@ var handleLoginFailure = function handleLoginFailure() {
     }
 
     // 判断是不是扫描的砍价海报进来的
-    if (currentPageUrl == 'pages/activity/DargainDetails/index') {
+    if (currentPageUrl == 'subpackages/activity/DargainDetails/index') {
       console.log('————————');
       console.log('是扫描的砍价海报进来的');
       console.log('————————');
@@ -13081,7 +13081,7 @@ var handleLoginFailure = function handleLoginFailure() {
         console.log('————————');
       }
     }
-    if (currentPageUrl == 'pages/shop/GoodsCon/index') {
+    if (currentPageUrl == 'subpackages/shop/GoodsCon/index') {
       console.log('————————');
       console.log('是扫描的商品详情');
       console.log('————————');
@@ -16067,7 +16067,7 @@ function goOrderDetails(id, type) {
   if (type == 'create') {
     console.log(_utils._router);
     _utils._router.replace({
-      path: "/pages/order/OrderDetails/index",
+      path: "/subpackages/order/OrderDetails/index",
       query: {
         id: id
       }

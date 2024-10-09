@@ -1,2 +1,2 @@
-<!--pages/news/NewsList/index.wxml-->
-<text>pages/news/NewsList/index.wxml</text>
+<!--subpackages/news/NewsList/index.wxml-->
+<text>subpackages/news/NewsList/index.wxml</text>

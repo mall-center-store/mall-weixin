@@ -1,4 +1,4 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/user/coupon/GetCoupon/index"],{
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["subpackages/user/coupon/GetCoupon/index"],{
 
 /***/ 373:
 /*!*******************************************************************************************************!*\
@@ -23,7 +23,7 @@ createPage(_index.default);
 
 /***/ 374:
 /*!********************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/user/coupon/GetCoupon/index.vue ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/coupon/GetCoupon/index.vue ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -62,7 +62,7 @@ component.options.__file = "subpackages/user/coupon/GetCoupon/index.vue"
 
 /***/ 375:
 /*!***************************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/user/coupon/GetCoupon/index.vue?vue&type=template&id=4d09abf1& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/coupon/GetCoupon/index.vue?vue&type=template&id=4d09abf1& ***!
   \***************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 376:
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/user/coupon/GetCoupon/index.vue?vue&type=template&id=4d09abf1& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/coupon/GetCoupon/index.vue?vue&type=template&id=4d09abf1& ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -122,7 +122,7 @@ render._withStripped = true
 
 /***/ 377:
 /*!*********************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/user/coupon/GetCoupon/index.vue?vue&type=script&lang=js& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/coupon/GetCoupon/index.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -138,7 +138,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 378:
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/user/coupon/GetCoupon/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/coupon/GetCoupon/index.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -281,7 +281,7 @@ var _default = {
     },
     goPages: function goPages(item) {
       this.$yrouter.push({
-        path: "/pages/user/coupon/CouponDetail/index",
+        path: "/subpackages/user/coupon/CouponDetail/index",
         query: {
           id: item.cid
         }
@@ -295,4 +295,4 @@ exports.default = _default;
 /***/ })
 
 },[[373,"common/runtime","common/vendor"]]]);
-//# sourceMappingURL=../../../../../.sourcemap/mp-weixin/pages/user/coupon/GetCoupon/index.js.map
+//# sourceMappingURL=../../../../../.sourcemap/mp-weixin/subpackages/user/coupon/GetCoupon/index.js.map

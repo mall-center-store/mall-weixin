@@ -271,7 +271,7 @@ var _default2 = {
       // 	});
 
       // 	that.$yrouter.push({
-      // 		path: "/pages/order/OrderSubmission/index",
+      // 		path: "/subpackages/order/OrderSubmission/index",
       // 		query: {
       // 			id: id.join(',')
       // 		}
@@ -301,7 +301,7 @@ var _default2 = {
           (0, _store.postCartAdd)(q).then(function (res) {
             if (flag) {
               that.$yrouter.push({
-                path: "/pages/order/OrderSubmission/index",
+                path: "/subpackages/order/OrderSubmission/index",
                 query: {
                   id: res.data.cartId
                 }
@@ -333,7 +333,7 @@ var _default2 = {
     // 		.then(function(res) {
     // 			if (info.new) {
     // 				that.$yrouter.push({
-    // 					path: "/pages/order/OrderSubmission/index",
+    // 					path: "/subpackages/order/OrderSubmission/index",
     // 					query: {
     // 						id: res.data.cartId
     // 					}
@@ -369,7 +369,7 @@ var _default2 = {
     // 		that.attr.cartAttr = false;
     // 		if (q.new) {
     // 			that.$yrouter.push({
-    // 				path: "/pages/order/OrderSubmission/index",
+    // 				path: "/subpackages/order/OrderSubmission/index",
     // 				query: {
     // 					id: res.data.cartId
     // 				}
@@ -439,7 +439,7 @@ var _default2 = {
       // 	  if (time == 0) {
       // 		clearInterval(myTime)
       // 		that.$yrouter.push({
-      // 		  path: "/pages/user/UserVip/index"
+      // 		  path: "/subpackages/user/UserVip/index"
       // 		});
       // 	  }
       // 	}, 1000)

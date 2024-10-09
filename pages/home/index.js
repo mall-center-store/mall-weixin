@@ -368,7 +368,7 @@ var _default = {
       console.log('2112', this.$refs);
     },
     goGoodSearch: function goGoodSearch() {
-      this.$yrouter.push('/pages/shop/GoodSearch/index');
+      this.$yrouter.push('/subpackages/shop/GoodSearch/index');
     },
     // 路由跳转
     routerTo: function routerTo(item) {

@@ -1,4 +1,4 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/user/BindingPhone/index"],{
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["subpackages/user/BindingPhone/index"],{
 
 /***/ 241:
 /*!*************************************************************************************************!*\
@@ -13,7 +13,7 @@
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 __webpack_require__(/*! uni-pages */ 29);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/user/BindingPhone/index.vue */ 242));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./subpackages/user/BindingPhone/index.vue */ 242));
 // @ts-ignore
 wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_index.default);
@@ -23,7 +23,7 @@ createPage(_index.default);
 
 /***/ 242:
 /*!****************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/user/BindingPhone/index.vue ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/BindingPhone/index.vue ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -55,14 +55,14 @@ var component = Object(_E_software_HBuilderX_3_8_4_20230531_HBuilderX_plugins_un
   renderjs
 )
 
-component.options.__file = "pages/user/BindingPhone/index.vue"
+component.options.__file = "subpackages/user/BindingPhone/index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
 /***/ 243:
 /*!***********************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/user/BindingPhone/index.vue?vue&type=template&id=b0fbd0b2& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/BindingPhone/index.vue?vue&type=template&id=b0fbd0b2& ***!
   \***********************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 244:
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/user/BindingPhone/index.vue?vue&type=template&id=b0fbd0b2& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/BindingPhone/index.vue?vue&type=template&id=b0fbd0b2& ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -111,7 +111,7 @@ render._withStripped = true
 
 /***/ 245:
 /*!*****************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/user/BindingPhone/index.vue?vue&type=script&lang=js& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/BindingPhone/index.vue?vue&type=script&lang=js& ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -127,7 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 246:
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/user/BindingPhone/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/user/BindingPhone/index.vue?vue&type=script&lang=js& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -229,7 +229,7 @@ var _default = {
                               duration: 2000
                             });
                             that.$yrouter.replace({
-                              path: "/pages/user/PersonalData/index"
+                              path: "/subpackages/user/PersonalData/index"
                             });
                           }).catch(function (res) {
                             uni.showToast({
@@ -238,7 +238,7 @@ var _default = {
                               duration: 2000
                             });
                             that.$yrouter.replace({
-                              path: "/pages/user/PersonalData/index"
+                              path: "/subpackages/user/PersonalData/index"
                             });
                           });
                         } else if (res.cancel) {
@@ -248,7 +248,7 @@ var _default = {
                             duration: 2000
                           });
                           that.$yrouter.replace({
-                            path: "/pages/user/PersonalData/index"
+                            path: "/subpackages/user/PersonalData/index"
                           });
                         }
                       }
@@ -260,7 +260,7 @@ var _default = {
                       duration: 2000
                     });
                     that.$yrouter.replace({
-                      path: "/pages/user/PersonalData/index"
+                      path: "/subpackages/user/PersonalData/index"
                     });
                   }
                 }).catch(function (res) {
@@ -335,4 +335,4 @@ exports.default = _default;
 /***/ })
 
 },[[241,"common/runtime","common/vendor"]]]);
-//# sourceMappingURL=../../../../.sourcemap/mp-weixin/pages/user/BindingPhone/index.js.map
+//# sourceMappingURL=../../../../.sourcemap/mp-weixin/subpackages/user/BindingPhone/index.js.map

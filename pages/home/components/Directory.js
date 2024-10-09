@@ -272,7 +272,7 @@ var _default = {
     },
     // 路由跳转
     routerTo: function routerTo(item) {
-      this.$yrouter.push('/pages/shop/news/NoticeDetail/index?id=' + item.id);
+      this.$yrouter.push('/subpackages/shop/news/NoticeDetail/index?id=' + item.id);
     }
   }
 };

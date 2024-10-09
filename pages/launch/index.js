@@ -145,7 +145,7 @@ var _default = {
   methods: _objectSpread(_objectSpread(_objectSpread({}, (0, _vuex.mapActions)(["changeAuthorization", "setUserInfo"])), (0, _vuex.mapMutations)(["updateAuthorizationPage"])), {}, {
     toLogin: function toLogin() {
       this.$yrouter.push({
-        path: "/pages/user/Login/index",
+        path: "/subpackages/user/Login/index",
         query: {}
       });
     },
@@ -164,7 +164,7 @@ var _default = {
         console.log("user login", res);
         console.log('重定向');
         if (res.data.nickName == "微信用户") {
-          _this.$yrouter.push("/pages/user/PersonalData/index");
+          _this.$yrouter.push("/subpackages/user/PersonalData/index");
         } else {
           _this.$yrouter.reLaunch({
             path: _cookie.default.get("redirect").replace(/\ /g, '')
@@ -804,7 +804,7 @@ var _default = {
       console.log('2112', this.$refs);
     },
     goGoodSearch: function goGoodSearch() {
-      this.$yrouter.push('/pages/shop/GoodSearch/index');
+      this.$yrouter.push('/subpackages/shop/GoodSearch/index');
     },
     // 路由跳转
     routerTo: function routerTo(item) {
@@ -1084,7 +1084,7 @@ var _default = {
       }
     },
     goGoodSearch: function goGoodSearch() {
-      this.$yrouter.push("/pages/shop/GoodSearch/index");
+      this.$yrouter.push("/subpackages/shop/GoodSearch/index");
     },
     tabClick: function tabClick(data) {
       this.active1 = data.id;
@@ -1468,7 +1468,7 @@ var _default = {
     },
     goGoodsCon: function goGoodsCon(item) {
       this.$yrouter.push({
-        path: '/pages/shop/GoodsCon/index',
+        path: '/subpackages/shop/GoodsCon/index',
         query: {
           id: item.productId
         }
@@ -1641,7 +1641,7 @@ var _default = {
         },
         complete: function complete() {
           that.$yrouter.push({
-            path: '/pages/order/OrderSubmission/index',
+            path: '/subpackages/order/OrderSubmission/index',
             query: {
               id: id.join(',')
             }
@@ -2005,11 +2005,11 @@ var _default = {
   computed: (0, _vuex.mapGetters)(["userInfo"]),
   methods: _objectSpread(_objectSpread({}, (0, _vuex.mapMutations)(["updateAuthorizationPage"])), {}, {
     goReturnList: function goReturnList() {
-      this.$yrouter.push("/pages/order/ReturnList/index");
+      this.$yrouter.push("/subpackages/order/ReturnList/index");
     },
     goMyOrder: function goMyOrder(type) {
       this.$yrouter.push({
-        path: "/pages/order/MyOrder/index",
+        path: "/subpackages/order/MyOrder/index",
         query: {
           type: type
         }
@@ -2017,14 +2017,14 @@ var _default = {
     },
     goBindPhone: function goBindPhone() {
       this.$yrouter.push({
-        path: "/pages/user/BindingPhone/index"
+        path: "/subpackages/user/BindingPhone/index"
       });
     },
     goUserCoupon: function goUserCoupon() {
-      this.$yrouter.push("/pages/user/coupon/UserCoupon/index");
+      this.$yrouter.push("/subpackages/user/coupon/UserCoupon/index");
     },
     goIntegral: function goIntegral() {
-      this.$yrouter.push("/pages/user/signIn/Integral/index");
+      this.$yrouter.push("/subpackages/user/signIn/Integral/index");
     },
     goUserPromotion: function goUserPromotion() {
       // uni.showModal({
@@ -2035,15 +2035,15 @@ var _default = {
         duration: 1000
       });
 
-      // this.$yrouter.push("/pages/user/promotion/UserPromotion/index");
+      // this.$yrouter.push("/subpackages/user/promotion/UserPromotion/index");
     },
     goUserAccount: function goUserAccount() {
       this.$yrouter.push({
-        path: "/pages/user/UserAccount/index"
+        path: "/subpackages/user/UserAccount/index"
       });
     },
     goPersonalData: function goPersonalData() {
-      this.$yrouter.push("/pages/user/PersonalData/index");
+      this.$yrouter.push("/subpackages/user/PersonalData/index");
     },
     getPhoneNumber: function getPhoneNumber(e) {
       var thit = this;
@@ -2126,7 +2126,7 @@ var _default = {
     },
     goPages: function goPages(index) {
       var url = this.MyMenus[index].uniapp_url;
-      if (url === "/pages/user/promotion/UserPromotion/index" && this.userInfo.statu === 1) {
+      if (url === "/subpackages/user/promotion/UserPromotion/index" && this.userInfo.statu === 1) {
         if (!this.userInfo.isPromoter) {
           uni.showToast({
             title: "您还没有推广权限！！",
@@ -2138,7 +2138,7 @@ var _default = {
       }
 
       /* if (
-        url === "/pages/orderAdmin/OrderIndex/index" &&
+        url === "/subpackages/orderAdmin/OrderIndex/index" &&
         !this.userInfo.adminid
       ) {
         uni.showToast({
@@ -2149,7 +2149,7 @@ var _default = {
         return;
       } */
       console.log(this.userInfo);
-      if (url === "/pages/orderAdmin/OrderCancellation/index" && !this.userInfo.checkStatus) {
+      if (url === "/subpackages/orderAdmin/OrderCancellation/index" && !this.userInfo.checkStatus) {
         uni.showToast({
           title: "您没有核销权限,请后台店员设置！！",
           icon: "none",
@@ -2163,7 +2163,7 @@ var _default = {
     },
     goPages2: function goPages2() {
       this.$yrouter.push({
-        path: "/pages/orderAdmin/OrderCancellation/index"
+        path: "/subpackages/orderAdmin/OrderCancellation/index"
       });
     }
   }),

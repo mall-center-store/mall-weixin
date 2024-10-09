@@ -1,4 +1,4 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/order/MyOrder/index"],{
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["subpackages/order/MyOrder/index"],{
 
 /***/ 417:
 /*!*********************************************************************************************!*\
@@ -13,7 +13,7 @@
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 __webpack_require__(/*! uni-pages */ 29);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/order/MyOrder/index.vue */ 418));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./subpackages/order/MyOrder/index.vue */ 418));
 // @ts-ignore
 wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_index.default);
@@ -23,7 +23,7 @@ createPage(_index.default);
 
 /***/ 418:
 /*!************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -57,14 +57,14 @@ var component = Object(_E_software_HBuilderX_3_8_4_20230531_HBuilderX_plugins_un
   renderjs
 )
 
-component.options.__file = "pages/order/MyOrder/index.vue"
+component.options.__file = "subpackages/order/MyOrder/index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
 /***/ 419:
 /*!*******************************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue?vue&type=template&id=01edf37b&scoped=true& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue?vue&type=template&id=01edf37b&scoped=true& ***!
   \*******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -86,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 420:
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue?vue&type=template&id=01edf37b&scoped=true& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue?vue&type=template&id=01edf37b&scoped=true& ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -135,7 +135,7 @@ render._withStripped = true
 
 /***/ 421:
 /*!*************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue?vue&type=script&lang=js& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 422:
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue?vue&type=script&lang=js& ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -434,7 +434,7 @@ var _default = {
       }
       (0, _store.postCartAdd)(info).then(function (res) {
         that.$yrouter.push({
-          path: "/pages/order/OrderSubmission/index",
+          path: "/subpackages/order/OrderSubmission/index",
           query: {
             id: res.data.cartId
           }
@@ -451,16 +451,16 @@ var _default = {
       var path = "",
         id = "";
       if (cart.combinationId === 0 && cart.bargainId === 0 && cart.seckillId === 0) {
-        path = "/pages/shop/GoodsCon/index";
+        path = "/subpackages/shop/GoodsCon/index";
         id = cart.productInfo.id;
       } else if (cart.combinationId > 0) {
-        path = "/pages/activity/GroupDetails/index";
+        path = "/subpackages/activity/GroupDetails/index";
         id = cart.combinationId;
       } else if (cart.bargainId > 0) {
-        path = "/pages/activity/DargainDetails/index";
+        path = "/subpackages/activity/DargainDetails/index";
         id = cart.bargainId;
       } else if (cart.seckillId > 0) {
-        path = "/pages/activity/SeckillDetails/index";
+        path = "/subpackages/activity/SeckillDetails/index";
         id = cart.seckillId;
       }
       this.$yrouter.push({
@@ -472,7 +472,7 @@ var _default = {
     },
     goLogistics: function goLogistics(order) {
       this.$yrouter.push({
-        path: "/pages/order/Logistics/index",
+        path: "/subpackages/order/Logistics/index",
         query: {
           id: order.orderId
         }
@@ -480,7 +480,7 @@ var _default = {
     },
     goOrderDetails: function goOrderDetails(order) {
       this.$yrouter.push({
-        path: "/pages/order/OrderDetails/index",
+        path: "/subpackages/order/OrderDetails/index",
         query: {
           id: order.orderId
         }
@@ -583,7 +583,7 @@ exports.default = _default;
 
 /***/ 423:
 /*!**********************************************************************************************************************************!*\
-  !*** F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue?vue&type=style&index=0&id=01edf37b&scoped=true&lang=less& ***!
+  !*** F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue?vue&type=style&index=0&id=01edf37b&scoped=true&lang=less& ***!
   \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -599,7 +599,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 424:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--10-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-2!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/pages/order/MyOrder/index.vue?vue&type=style&index=0&id=01edf37b&scoped=true&lang=less& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--10-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-2!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/giteeWarehouse/mall/mall-wxchat/subpackages/order/MyOrder/index.vue?vue&type=style&index=0&id=01edf37b&scoped=true&lang=less& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -611,4 +611,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 },[[417,"common/runtime","common/vendor"]]]);
-//# sourceMappingURL=../../../../.sourcemap/mp-weixin/pages/order/MyOrder/index.js.map
+//# sourceMappingURL=../../../../.sourcemap/mp-weixin/subpackages/order/MyOrder/index.js.map

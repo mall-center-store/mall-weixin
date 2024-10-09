@@ -174,7 +174,7 @@ var _default = {
   methods: {
     routerGo: function routerGo(item) {
       this.$yrouter.push({
-        path: '/pages/shop/GoodsCon/index',
+        path: '/subpackages/shop/GoodsCon/index',
         query: {
           id: item.id
         }

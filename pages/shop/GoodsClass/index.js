@@ -223,7 +223,7 @@ var _default = {
       }
     },
     goGoodSearch: function goGoodSearch() {
-      this.$yrouter.push("/pages/shop/GoodSearch/index");
+      this.$yrouter.push("/subpackages/shop/GoodSearch/index");
     },
     tabClick: function tabClick(data) {
       this.active1 = data.id;

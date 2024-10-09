@@ -219,7 +219,7 @@ var _default2 = {
         that.showCart = true;
         if (q.new) {
           that.$yrouter.push({
-            path: "/pages/order/OrderSubmission/index",
+            path: "/subpackages/order/OrderSubmission/index",
             query: {
               id: res.data.cartId
             }
@@ -242,7 +242,7 @@ var _default2 = {
     },
     routerGo: function routerGo(item) {
       this.$yrouter.push({
-        path: '/pages/shop/GoodsCon/index',
+        path: '/subpackages/shop/GoodsCon/index',
         query: {
           id: item.id
         }

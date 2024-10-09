@@ -122,7 +122,7 @@ var render = function () {
   if (!_vm._isMounted) {
     _vm.e0 = function ($event) {
       return _vm.$yrouter.push({
-        path: "/pages/shop/HotNewGoods/index",
+        path: "/subpackages/shop/HotNewGoods/index",
         query: {
           type: 3,
         },
@@ -133,7 +133,7 @@ var render = function () {
         _temp2 = _temp.eventParams || _temp["event-params"],
         mgoods = _temp2.mgoods
       var _temp, _temp2
-      return _vm.jump("/pages/shop/GoodsCon/index", {
+      return _vm.jump("/subpackages/shop/GoodsCon/index", {
         id: mgoods.id,
       })
     }

@@ -171,7 +171,7 @@ var _default = {
   methods: _objectSpread(_objectSpread(_objectSpread({}, (0, _vuex.mapActions)(["changeAuthorization", "setUserInfo"])), (0, _vuex.mapMutations)(["updateAuthorizationPage"])), {}, {
     toLogin: function toLogin() {
       this.$yrouter.push({
-        path: "/pages/user/Login/index",
+        path: "/subpackages/user/Login/index",
         query: {}
       });
     },
@@ -190,7 +190,7 @@ var _default = {
         console.log("user login", res);
         console.log('重定向');
         if (res.data.nickName == "微信用户") {
-          _this.$yrouter.push("/pages/user/PersonalData/index");
+          _this.$yrouter.push("/subpackages/user/PersonalData/index");
         } else {
           _this.$yrouter.reLaunch({
             path: _cookie.default.get("redirect").replace(/\ /g, '')

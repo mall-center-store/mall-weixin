@@ -218,7 +218,7 @@ var _default = {
         that.attr.cartAttr = false;
         if (q.new) {
           that.$yrouter.push({
-            path: "/pages/order/OrderSubmission/index",
+            path: "/subpackages/order/OrderSubmission/index",
             query: {
               id: res.data.cartId
             }

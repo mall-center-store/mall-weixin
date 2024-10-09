@@ -164,7 +164,7 @@ var _default = {
       // 	.then(function(res) {
       // 		if (info.new) {
       // 			that.$yrouter.push({
-      // 				path: "/pages/order/OrderSubmission/index",
+      // 				path: "/subpackages/order/OrderSubmission/index",
       // 				query: {
       // 					id: res.data.cartId
       // 				}
@@ -198,7 +198,7 @@ var _default = {
           id.push(this.cartList[i].id);
         }
         this.$yrouter.push({
-          path: '/pages/order/OrderSubmission/index',
+          path: '/subpackages/order/OrderSubmission/index',
           query: {
             id: id.toString()
           }

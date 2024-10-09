@@ -1,8 +1,8 @@
+@charset "UTF-8";
 image.data-v-033e04f8 {
   width: 100%;
 }
 
-@charset "UTF-8";
 /**
  * 这里是uni-app内置的常用样式变量
  *

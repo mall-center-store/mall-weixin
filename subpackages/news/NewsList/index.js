@@ -1,4 +1,4 @@
-// pages/news/NewsList/index.js
+// subpackages/news/NewsList/index.js
 Page({
 
   /**

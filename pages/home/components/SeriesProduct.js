@@ -105,7 +105,7 @@ var render = function () {
   if (!_vm._isMounted) {
     _vm.e0 = function ($event) {
       return _vm.$yrouter.push({
-        path: "/pages/shop/HotNewGoods/index",
+        path: "/subpackages/shop/HotNewGoods/index",
         query: {
           templateId: _vm.productData.id,
           title: _vm.productData.title,
@@ -117,7 +117,7 @@ var render = function () {
         _temp2 = _temp.eventParams || _temp["event-params"],
         item = _temp2.item
       var _temp, _temp2
-      return _vm.jump("/pages/shop/GoodsCon/index", {
+      return _vm.jump("/subpackages/shop/GoodsCon/index", {
         id: item.id,
       })
     }
@@ -270,7 +270,7 @@ var _default = {
         that.attr.cartAttr = false;
         if (q.new) {
           that.$yrouter.push({
-            path: "/pages/order/OrderSubmission/index",
+            path: "/subpackages/order/OrderSubmission/index",
             query: {
               id: res.data.cartId
             }
